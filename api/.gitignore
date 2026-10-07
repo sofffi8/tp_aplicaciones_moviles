@@ -1,0 +1,36 @@
+# Dependencias
+node_modules
+
+# Secrets ===
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Builds y temporales
+dist
+dist-ssr
+build
+*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editores y sistema operativo
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+desktop.ini
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
